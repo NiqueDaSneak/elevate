@@ -138,7 +138,7 @@ body {
 }
 
 .pushmenu-left {
-  left: -240px;
+  left: -950px;
 
 }
 
@@ -161,4 +161,17 @@ body {
   -webkit-transition: all 0.3s ease;
   -moz-transition: all 0.3s ease;
   transition: all 0.3s ease;  
+}
+
+@media only screen and (min-width : 765px) {
+  .pushmenu-left {
+    left: -950px;
+
+  }
+
+  .pushmenu { /*this is the nav*/
+
+    width: 40vh;
+    height: auto;
+  }
 }

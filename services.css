@@ -1,6 +1,6 @@
 .services-image {
 	background-image: url('imgs/services-image.png');
-	height: 100vh;
+	height: 60vh;
 	background-size: cover;
 	background-repeat: no-repeat;
 }
@@ -31,10 +31,19 @@
 	bottom: 0;
 }
 
-.footer-title {
+.services-footer-title {
 	font-size: 4vh;
 	text-align: left;
 	padding-top: 30px;
+	padding-left: 30px;
+	padding-right: 30px;
+	padding-bottom: 3px;
+
+}
+
+.subhead {
+	text-align: left;
+	font-size: 2.5vh;
 	padding-left: 30px;
 	padding-bottom: 25px;
 }
