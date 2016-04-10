@@ -129,7 +129,8 @@ body {
 }
 
 .pushmenu a:hover {
-  background: white;
+  /*background: white;*/
+  color: black;
 }
 
 .pushmenu a:active {

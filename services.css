@@ -1,8 +1,11 @@
 .services-image {
-	background-image: url('imgs/services-image.png');
+	background-image: url('imgs/services-image.jpeg');
 	height: 60vh;
 	background-size: cover;
 	background-repeat: no-repeat;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
 
 .services-content {
@@ -12,7 +15,7 @@
 .services-title {
 	text-align: center;
 	padding-top: 30px;
-	padding-bottom: 40px;
+	padding-bottom: 10px;
 	font-weight: 700;
 	font-size: 7vh;
 }
@@ -23,19 +26,10 @@
 	font-size: 3vh;
 }
 
-.services-call-to-action {
-	height: 40vh;
-	background-color: black;
-	color: white;
-	/*position: fixed;*/
-	bottom: 0;
-}
-
 .services-footer-title {
 	font-size: 4vh;
 	text-align: left;
 	padding-top: 30px;
-	padding-left: 30px;
 	padding-right: 30px;
 	padding-bottom: 3px;
 
@@ -44,13 +38,31 @@
 .subhead {
 	text-align: left;
 	font-size: 2.5vh;
-	padding-left: 30px;
 	padding-bottom: 25px;
 }
 
-.contact-info {
+.services-call-to-action {
 	padding-left: 30px;
+	height: 40vh;
+	background-color: black;
+	color: white;
+	-webkit-box-shadow: 0px -5px 10px 3px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px -5px 10px 3px rgba(0,0,0,0.75);
+	box-shadow: 0px -5px 10px 3px rgba(0,0,0,0.75);
+}
+
+.footer-title {
+	font-size: 4vh;
 	text-align: left;
+	padding-top: 30px;
+	padding-bottom: 25px;
+}
+
+.contact-info-link {
 	font-size: 3vh;
 	padding-bottom: 15px;
+	padding-left: 30px;
+	text-align: left;
+	text-decoration: underline;
+	color: inherit;	
 }
